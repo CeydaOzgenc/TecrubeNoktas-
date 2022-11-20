@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+@media(min-width: 1801px){
+	   .container{
+		     width:1500px;
+		   }
+	    #banner{
+	        max-width:3000px;
+			min-width:1800px;
+	      } 
+	   #banner_ilan{
+	        max-width:3000px;
+			min-width:1800px;
+	      } 
+	   .alanlar p{
+			  margin-top:6%;
+			}
+	    #sonuc p{
+	       margin-top:8%;
+	}
+        #sonuc h1{
+	       margin-top:6%;
+	} 
+        #sonuc h2{
+	       margin-top:8%;
+	}
+        #sonuc font{
+	       margin-top:5%;
+	}
+	}
+ @media(max-width: 1800px){
+	   .container{
+		     width:1400px;
+		   }
+		#banner{
+	        max-width:1800px;
+			min-width:1600px;
+	      }
+		#banner_ilan{
+	        max-width:1800px;
+			min-width:1600px;
+	      }
+		.alanlar p{
+			  margin-top:6%;
+			}
+	    		#sonuc p{
+	       margin-top:9%;
+	}
+        #sonuc h1{
+	       margin-top:7%;
+	} 
+        #sonuc h2{
+	       margin-top:9%;
+	}
+        #sonuc font{
+	       margin-top:6%;
+	}
+	}
+@media(max-width: 1600px){
+	   .container{
+		     width:1200px;
+		   }
+		#banner{
+	        max-width:1600px;
+			min-width:1400px;
+	      }
+		#banner_ilan{
+	        max-width:1600px;
+			min-width:1400px;
+	      }
+		#sonuc p{
+	        margin-top:11%;
+	}
+        #sonuc h1{
+	        margin-top:8%;
+	}
+#sonuc h2{
+	  margin-top:10%
+	}
+#sonuc font{
+	  margin-top:7%;
+	}
+	}
+@media(max-width: 1400px){
+	   .container{
+		     width:1000px;
+		   }
+	   #banner{
+	        max-width:1400px;
+			min-width:1200px;
+	      }
+	   #banner_ilan{
+	        max-width:1400px;
+			min-width:1200px;
+	      }
+	   .alanlar p{
+			  margin-top:10%;
+			}
+	}
+@media(max-width: 1200px){
+	   .container{
+		     width:900px;
+		   }
+		 #banner{
+	        max-width:1200px;
+			min-width:1000px;
+	      }
+		 #banner_ilan{
+	        max-width:1200px;
+			min-width:1000px;
+	      }
+		   #sonuc {
+	       width:40%;
+	}
+		  #sonuc p{
+	  font-size:17px;
+	  margin-top:13%;
+	}
+#sonuc h1{
+	  font-size:27px;
+	   margin-top:11.5%;
+	}
+#sonuc h2{
+	  font-size:17px;
+	   margin-top:14.5%;
+	}
+#sonuc font{
+	  font-size:27px;
+	   margin-top:10.5%;
+	}
+	#button input{
+		  font-size:16px;
+		}
+	}
+@media(max-width: 1000px){
+	   .container{
+		     width:800px;
+		   }
+		#buton input{
+			  font-size:15px;
+			}
+		 #banner{
+	        max-width:1000px;
+			min-width:800px;
+	      }
+		 #banner_ilan{
+	        max-width:1000px;
+			min-width:800px;
+	      }
+		 .yazi{
+			 margin-top:1.5%;
+			 font-size:13px;
+			 }
+		 #sonuc {
+	       width:45%;
+	}
+	#secenek{
+		   width:20%;
+		}
+		#button input{
+		  font-size:14px;
+		}
+}
+@media(max-device-width: 800px){
+	   .container{
+		     width:90% !important;
+			 margin:auto;
+		   }
+	#ara{
+	  width:100%;
+	}
+	.container #navbar{
+	  width:65%;
+	}
+	#arama{
+		  display:none;
+		}
+	#navbar #nav {
+	  width:100%;
+	}
+	.container #logo {
+	  width:33%;
+	}
+	#navbar ul {
+	  position:fixed;
+	  margin-top:70px;
+	  border:0; 
+	  right:0;
+	  display:none;	  
+	  width:35%; 
+	  min-height:100%;
+	  background:rgba(0,0,0,0.7);
+	  z-index:9;
+	}
+	#navbar ul li{ 
+	  float:none; 
+	  border:0;
+	  height:65px;
+	  width:80%;
+	  margin:auto;
+	  border-bottom:2px solid;
+	}
+	#nav #button{
+		 float:none; 
+		 width:85%;
+		 padding:3%;
+		}
+	#button input{
+		 float:none; 
+		 width:80%;
+		 height:50px;
+		}
+	#navbar .fa-navicon {	 
+	  display:block;
+	}
+#banner{
+	        max-width:800px;
+			min-width:100px;
+			padding:50px 1.5%;
+	      }
+#banner_ilan{
+	        max-width:800px;
+			min-width:100px;
+			padding:50px 1.5%;
+	      }
+.alanlar h1{font-size:22px;}
+#anahtarlar{width:35%;}
+#sonuc{width:100%;}
+#sonuc p{font-size:17px;margin-top:0%;}
+#sonuc h1{margin-top:-1%;}
+#sonuc h2{margin-top:0.5%;}
+#sonuc font{margin-top:-1.5%;}
+.anahtar .yaz{font-size:15px;}
+.glyphicon{font-size:20px;}
+#ilanım{width:61%;}
+#baslik{height:23px;}
+#baslik h1, #baslik h2, #baslik h3{font-size:13px;}
+#bilgiler_ayar .basliklar{width:34%;font-size:13px;}
+#bilgiler_ayar li{font-size:13px;}
+#profil_resim input{width:65%;margin:10% 0 5% 0;}
+#profil_bilgi .basliklar{width:36%;}
+#profil_bilgi li{width:62%;}
+#profil{margin-top:20%;}
+#eklenecek{width:33%;}
+#eklenecek li{font-size:15px;padding:10% 5%;}
+#olustur{ width:63%;}
+.olusan .baslik{width:35%;}
+.olusan li{width:59%;font-size:13px;}
+.scn{width:25%;margin:2% 2% 0 0;}
+#basvurulan .basvuru{font-size:13px;}
+#profil_resim{width:40%;}
+#profil_bilgisi{width:60%;}
+#profil h1{font-size:18px;}
+#profil h2{font-size:14px;}
+#cvler [type=submit], #ilanlar [type=submit]{font-size:15px;}
+#bilgilen{float:none;width:98%;}
+#kayit{width:98%;}
+#ilandetay{width:78%;}
+#basvur{width:20%;}
+}
+@media(max-width: 550px){
+	 #kisim a{font-size:15px;}
+	 #ara h2{font-size:18px;}
+	 #ara input[name=mslk]{width:98%;border-radius:3px;margin-top:10%;}
+	 #ara input[name=shr]{width:98%;border-radius:3px;margin:1%;}
+	 #ara input[type=submit]{width:20%;}
+	 .yazi{font-size:10px;margin-top:2%;width:20%;}
+	 #anahtarlar{display:none;}
+	 #ilanım{width:98%;}
+	 #sonuc h2{margin:1%;}
+	 #banner_ilan{padding:41px 1.5%}
+	 #navbar .fa-navicon{font-size:40px;margin-top:15px;}
+	 #kayit h2{font-size:15px;}
+	 #yan_resim{display:none;}
+	 #resim,#profil_bilgi{margin:5%;}
+	 #yan_bilgi{width:100%;}
+	 #cvler input, #ilanlar input {width:33%;}
+	 #profil_resim{width:100%;}
+	 #profil_bilgisi{width:100%;margin-top:3%;}
+	 #profil_resim input{width:35%;margin:10% 0 5% 5%;}
+	 .kaydet input{width:30% !important;}
+	 #cvler [type=text], #ilanlar [type=text], #bilgiler_ayar [type=text]{width:90%;}
+	 .kisim li{font-size:11px;width:98%;margin-left:1%;}
+	 .kisim .baslik{width:100%;margin:0;}
+	 #ilandetay{width:100%;margin:0;}
+	 #ilandetay .baslik{font-size:17px;}
+	 #ilandetay li{font-size:13px;}
+	 #basvur{width:100%;margin:0;text-align:center;}
+	 #basvur input{float:none;margin:5%;width:45%;}
+	}
+@media(max-width: 400px){
+	 #calisma_sekli{height:auto;}
+	 .alanlar{width:100%;height:170px;background:#D0F0C0;border-bottom:1px solid #000}
+	 #calisma_sekli span{display:none;}
+	 #baslik{display:none;}
+	 #sonuc p{font-size:12px;}
+	 #sonuc font{font-size:18px;margin:-2% 0 0 2%;}
+	 #sonuc h1{font-size:18px;}
+	 #sonuc h2{font-size:12; margin:1% 0;}
+	 #banner_ilan{padding:15px 1.5;%box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+	 #navbar .fa-navicon{font-size:33px;margin-top:19px;}
+	 #kayit h2{font-size:10px;margin:22px 7px;}
+	 #resim{width:100px;height:100px;margin:5% 0 5% 5%;}
+	 #profil{margin-top:18%;}
+	 #profil h1{font-size:11px;}
+	 #profil h2{font-size:10px;}
+	 #profil_bilgi .basliklar{font-size:12px}
+	 #profil_bilgi li{font-size:9px;}
+	 #bilgiler{height:200px;}
+	 #eklenecek li{font-size:12px;}
+	 .olusan li,.olusan .baslik{width:98%;}
+	 .scn{width:35%;font-size:13px;}
+	 .olusan li font{font-size:12px;}
+	 #cvler input, #ilanlar input {width:45%;}
+	 .basvuru li{width:100%;}
+	 #cvler [type=submit], #ilanlar [type=submit]{font-size:12px;}
+	 .durum{margin:0 1% 0 0;width:32.33%;font-size:11px;height:20px;}
+	 .material-icons{font-size:20px;}
+	 #bilgiler_ayar .basliklar{width:100%;}
+	 #profil_resim input{width:50%;font-size:14px;margin-left:1%;}
+	 #cvler [type=text], #ilanlar [type=text], #bilgiler_ayar [type=text]{width:85%;}
+	 #bilgiler_ayar li{width:100%;}
+	 #ilandetay{display:none;}
+	}

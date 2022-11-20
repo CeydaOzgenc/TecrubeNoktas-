@@ -1,0 +1,139 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+<title>Tecrübe Noktası</title>
+</head>
+<body>
+<script src="js/jquery.min.js"></script>
+<header>
+  <div class="container">
+    <div id="logo">
+      <div id="img">
+        <a href="index.html"><h1>Logooooo</h1></a>
+      </div>
+    </div>
+    <div id="navbar">
+       <div id="nav">
+          <i class="fa fa-navicon"></i>
+          <ul>
+            <a href="index.html"><li>Anasayfa</li></a>
+            <a><li>Tüm İlanlar</li></a>
+            <a><li>Hakkımızda</li></a>
+            <a><li>Yardım</li></a>
+            <li id="button">
+                 <input type="submit" onClick="git()" value="Kayıt | Giriş">
+            </li>
+          </ul>
+       </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div id="ilan">
+    <div id="banner_ilan">
+      <div class="container">
+        <div id="sonuc"><p>Arama Sonucu</p><font>||</font><h1>1000</h1><h2>ilan</h2></div>
+        <div id="eklenen"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="anahtarlar">
+       <div class="topla">
+         <div class="anahtar" onClick="ac(0)">
+           <h1 class="yaz">İl</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(1)">
+           <h1 class="yaz">İlçe</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(2)">
+           <h1 class="yaz">İlan Tarihi</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(3)">
+           <h1 class="yaz">Eğitim</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(4)">
+           <h1 class="yaz">Departman</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(5)">
+           <h1 class="yaz">Pozisyon</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(6)">
+           <h1 class="yaz">Çalışma Şekli</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(7)">
+           <h1 class="yaz">İş Tecrübesi</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div class="topla">
+         <div class="anahtar" onClick="ac(8)">
+           <h1 class="yaz">Maaş</h1>
+           <span class="glyphicon glyphicon-menu-down"></span>
+         </div>
+       </div>
+       <div id="filtre">
+         <form><input type="submit" value="FİLTRE"></form>
+       </div>
+    </div>
+    <div id="ilanım">
+       <div id="baslik">
+         <h1>Firma Adı</h1>
+         <h2>İş Pozisyonu</h2>
+         <h3>İş İli</h3>
+       </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div id="ust_footer">
+    <div class="container">
+      <div class="ust"><a class="logo" href="index.html">Tecrube Noktası</a></div>
+      <div class="ust">
+        <div id="icon">
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-twitter-square"></i>
+         <i class="fa fa-pinterest-square"></i>
+         <i class="fa fa-youtube-square"></i>
+        </div>
+      </div>
+      <div class="ust">
+        <div class="link"><a>Cvler</a></div>
+        <div class="link"><a>Sponsorlar</a></div>
+        <div class="link"><a>İletişim</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="alt_footer">© Copyright 2018 Tecrübe Noktası Tüm Hakları Saklıdır.</div>
+</footer>
+<script src="js/ilan.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>

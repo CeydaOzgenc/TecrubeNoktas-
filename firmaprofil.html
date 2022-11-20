@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+<title>Tecrübe Noktası</title>
+</head>
+<body>
+<script src="js/jquery.min.js"></script>
+<header>
+  <div class="container">
+    <div id="logo">
+      <div id="img">
+        <a href="index.html"><h1>Logooooo</h1></a>
+      </div>
+    </div>
+    <div id="navbar">
+       <div id="nav">
+          <i class="fa fa-navicon"></i>
+          <ul>
+            <a href="index.html"><li>Anasayfa</li></a>
+            <a><li>Tüm İlanlar</li></a>
+            <a><li>Hakkımızda</li></a>
+            <a><li>Yardım</li></a>
+            <li id="button">
+                 <input type="submit" onClick="git()" value="Kayıt | Giriş">
+            </li>
+          </ul>
+       </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container">
+     <div id="bilgiler">
+       <div id="yan_resim"></div>
+       <div id="yan_bilgi">  
+         <div id="resim"></div>
+         <div id="profil">
+           <h1>Firma Adı</h1>
+           <h2>Kullanıcı Adı</h2>
+         </div>
+          <i onClick="document.location.href='firmaayarla.html'" class="material-icons">settings_applications</i>
+         <ul id="profil_bilgi">
+           <li class="basliklar">Yönetici :</li>
+           <li>Adı Soyadı</li>
+           <li class="basliklar">İl-İlçe : </li>
+           <li>İzmir-Karabağlar</li>
+           <li class="basliklar">Telefon No :</li>
+           <li>05xxxxxxxxx</li>
+           <li class="basliklar">Mail : </li>
+           <li>firma@gmail.com</li>
+         </ul>
+       </div>
+     </div>
+     <div id="ilanlar">
+       <ul class="ilan">
+         <li>
+           <ul class="kisim">
+             <h1>ADAY KRİTERLERİ</h1>
+             <li class="baslik">Cinsiyet</li>
+             <li>Erkek</li>
+             <li class="baslik">Yaş Aralığı</li>
+             <li>25-30</li>
+             <li class="baslik">Askeri Durum</li>
+             <li>Yapıldı</li>
+           </ul>
+           <ul class="kisim">
+             <h1>POZİSYON DETAYLARI</h1>
+             <li class="baslik">Firma Sektörü</li>
+             <li>Blablabla</li>
+             <li class="baslik">Departman</li>
+             <li>Blablabla</li>
+             <li class="baslik">Pozisyon</li>
+             <li>Blablabla</li>
+             <li class="baslik">Çalışma Şekli</li>
+             <li>Blablabla</li>
+             <li class="baslik">Personel Sayısı</li>
+             <li>Blablabla</li>
+             <li class="baslik">İl-ilçe</li>
+             <li>Blablabla</li>
+           </ul>
+         </li>
+       </ul>
+       <input type="submit" onClick="document.location.href='İlanolustur.html'" value="Yeni İlan Oluştur">
+     </div>
+     <ul id="basvurulan">
+       <h1>İLANA BAŞVURULAR</h1>
+       <li class="basvuru">
+         <ul>
+           <li>Departman-Pozisyon</li>
+           <li>Başvuran Kişi</li>
+           <li><input class="durum" value="Onayla" type="submit"><input class="durum red" value="Reddet" type="submit"><input class="durum bekle" value="Beklet" type="submit"></li>
+         </ul>
+       <li>
+     </ul>
+  </div>
+</main>
+<footer>
+  <div id="ust_footer">
+    <div class="container">
+      <div class="ust"><a class="logo" href="index.html">Tecrube Noktası</a></div>
+      <div class="ust">
+        <div id="icon">
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-twitter-square"></i>
+         <i class="fa fa-pinterest-square"></i>
+         <i class="fa fa-youtube-square"></i>
+        </div>
+      </div>
+      <div class="ust">
+        <div class="link"><a>Cvler</a></div>
+        <div class="link"><a>Sponsorlar</a></div>
+        <div class="link"><a>İletişim</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="alt_footer">© Copyright 2018 Tecrübe Noktası Tüm Hakları Saklıdır.</div>
+</footer>
+<script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+<title>Tecrübe Noktası</title>
+</head>
+<body>
+<script src="js/jquery.min.js"></script>
+<header>
+  <div class="container">
+    <div id="logo">
+      <div id="img">
+        <a href="index.html"><h1>Logooooo</h1></a>
+      </div>
+    </div>
+    <div id="navbar">
+       <div id="nav">
+          <i class="fa fa-navicon"></i>
+          <ul>
+            <a href="index.html"><li>Anasayfa</li></a>
+            <a><li>Tüm İlanlar</li></a>
+            <a><li>Hakkımızda</li></a>
+            <a><li>Yardım</li></a>
+            <li id="button">
+                 <input type="submit" onClick="git()" value="Kayıt | Giriş">
+            </li>
+          </ul>
+       </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container">
+     <div id="bilgiler_ayar">  
+         <div id="profil_resim">
+            <div id="resim"><img></div>
+            <input type="submit" value="Resim Değiştir">
+         </div>
+         <ul id="profil_bilgisi">
+           <li class="basliklar">Adı Soyad :</li>
+           <li><input type="text" value="Blablabla"></li>
+           <li class="basliklar">Kullanıcı Ad :</li>
+           <li><input type="text" value="Blablabla"></li>
+           <li class="basliklar">Telefon No :</li>
+           <li><input type="text" value="05xxxxxxxxx"></li>
+           <li class="basliklar">Mail : </li>
+           <li><input type="text" value="ceyda.ozgenc@gmail.com"></li>
+         </ul>
+         <div class="kaydet">
+            <input name="kaydet" type="button" value="Kaydet">
+         </div>
+     </div>
+     <div id="cvler">
+       <ul class="cv">
+         <li>
+           <ul class="kisim">
+             <h1>KİŞİSEL BİLGİLER</h1>
+             <li class="baslik">Cinsiyet</li>
+             <li><input type="radio" name="cnsyt">Erkek <input type="radio" name="cnsyt" class="c">Kadın <i class="material-icons delete">&#xe92b;</i></li>
+             <li class="baslik">Doğum Tarihi</li>
+             <li><input type="text" value="21.07.1998"><i class="material-icons delete">&#xe92b;</i></li>
+             <li class="baslik">Uyruk</li>
+             <li><input type="text" value="Türkiye"><i class="material-icons delete">&#xe92b;</i></li>
+             <li class="baslik">Medeni Durum</li>
+             <li><input type="text" value="Bekar"> <i class="material-icons delete">&#xe92b;</i></li>
+             <li class="baslik">Sürücü Belgesi</li>
+             <li><input type="text" value="Yok"><i class="material-icons delete">&#xe92b;</i></li>
+           </ul>
+           <ul class="kisim">
+             <h1>İLETİŞİM BİLGİLERİ</h1>
+             <li class="baslik">Adres</li>
+             <li><input type="text" value="blablabla"><i class="material-icons delete">&#xe92b;</i></li>
+             <li class="baslik">Mail</li>
+             <li><input type="mail" value="blablabla"><i class="material-icons delete">&#xe92b;</i></li>
+           </ul>
+           <ul class="kisim">
+             <h1>EĞİTİM BİLGİLERİ</h1>
+             <li class="baslik"><input type="text" value="2012-2016"></li>
+             <li><input type="text" value="Lise"><input type="text" value="İto Süleyman Taştekin">Derece:<input type="text" value="70"><i class="material-icons delete">&#xe92b;</i></li>
+             <li class="baslik"><input type="text" value="2016-2018"></li>
+             <li><input type="text" value="Önlisan"><input type="text" value="Ege Üniversitesi">Derece:<input type="text" value="2.75"><i class="material-icons delete">&#xe92b;</i></li>
+           </ul>
+           <ul class="kisim">
+             <h1>İŞ DENEYİMİ</h1>
+             <li class="baslik"><input type="text" value="2016-2017"></li>
+             <li><input type="text" value="Calisto Ajans"><input type="text" value="Web Tasarım"><input type="text" value="Yarım Zamanlı"><i class="material-icons delete">&#xe92b;</i></li>
+           </ul>
+           <ul class="kisim">
+             <h1>YABANCI DİL</h1>
+             <li class="baslik"><input type="text" value="Türkçe"></li>
+             <li><input type="text" value="Anadil"><i class="material-icons delete">&#xe92b;</i></li>
+             <li class="baslik"><input type="text" value="İngilizce"></li>
+             <li><input type="text" value="Temel"><i class="material-icons delete">&#xe92b;</i></li>
+           </ul>
+           <ul class="kisim">
+             <h1>SOSYAL AKTİVİTE</h1>
+             <li class="baslik"><input type="text" value="Futbol"></li>
+             <li><input type="text" value="Orta Seviye"><i class="material-icons delete">&#xe92b;</i></li>
+           </ul>
+           <ul class="kisim">
+             <h1>REFERANSLAR</h1>
+             <li class="baslik"><input type="text" value="Sibel BÜLBÜLER"></li>
+             <li><input type="text" value="İto Süleyman Taştekin"><input type="text" value="Öğretmen"><input type="text" value="05xxxxxxxxx"><i class="material-icons delete">&#xe92b;</i></li>
+           </ul>
+           <div class="kaydet">
+             <input name="kaydet" type="button" value="Kaydet">
+           </div>
+         </li>
+       </ul>
+     </div>
+  </div>
+</main>
+<footer>
+  <div id="ust_footer">
+    <div class="container">
+      <div class="ust"><a class="logo" href="index.html">Tecrube Noktası</a></div>
+      <div class="ust">
+        <div id="icon">
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-twitter-square"></i>
+         <i class="fa fa-pinterest-square"></i>
+         <i class="fa fa-youtube-square"></i>
+        </div>
+      </div>
+      <div class="ust">
+        <div class="link"><a>Cvler</a></div>
+        <div class="link"><a>Sponsorlar</a></div>
+        <div class="link"><a>İletişim</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="alt_footer">© Copyright 2018 Tecrübe Noktası Tüm Hakları Saklıdır.</div>
+</footer>
+<script src="js/nav.js"></script>
+</body>
+</html>

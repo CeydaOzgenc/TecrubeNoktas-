@@ -1,0 +1,155 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+<title>Tecrübe Noktası</title>
+</head>
+<body>
+<header id="index">
+  <div class="container">
+    <div id="logo">
+      <div id="img">
+        <a href="index.html"><h1>Logooooo</h1></a>
+      </div>
+    </div>
+    <div id="navbar">
+       <div id="nav">
+          <i class="fa fa-navicon"></i>
+          <ul>
+            <a href="index.html"><li>Anasayfa</li></a>
+            <a href="tumilanlar.html"><li>Tüm İlanlar</li></a>
+            <a><li>Hakkımızda</li></a>
+            <a><li>Yardım</li></a>
+            <li id="button">
+                 <input type="submit" onClick="git()" value="Kayıt | Giriş">
+            </li>
+          </ul>
+       </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div id="banner">
+    <div class="container">
+      <div id="ara">
+        <h2>Yeni Tecrübeni Bul</h2>
+        <div id="aramala">
+           <div id="kisim">
+             <ul>
+               <li><a onClick="al('0')">Meslekler</a></li>
+               <li><a onClick="al('1')">Firmalar</a></li>
+             </ul>
+             <div id="line">
+               <div id="sec"></div>
+             </div>
+           </div>
+        </div>
+        <form>
+          <input type="text" name="mslk" value placeholder="Meslek Seçimi" id="yazi">
+          <input type="text" name="shr" value placeholder="Şehir Seçimi">
+          <input type="checkbox"><h1 class="yazi">STAJ</h1>
+          <input type="checkbox"><h1 class="yazi">PART TİME</h1>
+          <input type="checkbox"><h1 class="yazi">FREELANCE</h1>
+          <input type="submit" name="isara" value="İşi Ara">  
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="calisma_sekli">
+      <a href="#"><div class="alanlar">
+        <p>5.000</p>
+        <h1>Staj İş İlanı</h1>
+      </div></a>
+      <span></span>
+      <a href="#"><div class="alanlar">
+        <p>12.000</p>
+        <h1>Part Time İş İlanı</h1>
+      </div></a>
+      <span></span>
+      <a href="#"><div class="alanlar">
+        <p>7.000</p>
+        <h1>Freelance İş İlanı</h1>
+      </div></a>
+    </div>
+    <div id="alan">
+       <div onClick="bil(0)" class="c_bilgi"><h2>Staj</h2></div>
+       <div onClick="bil(1)" class="c_bilgi"><h2>Part Time</h2></div>
+       <div onClick="bil(2)" class="c_bilgi"><h2>Freelance</h2></div>
+       <div class="yazisi">
+       Belgenizin genel görünümünü değiştirmek için, Sayfa Düzeni sekmesinde yeni Tema öğeleri seçin.  Hızlı
+       Stil galerinde bulunan görünümleri değiştirmek için, Geçerli Stil Ayarını Değiştir komutunu kullanın.  
+       Geçerli şablonunuzda bulunan belgenizin görünümünü her zaman özgün haline geri döndürebilmeniz için, 
+       Temalar galerisi ve Hızlı Stiller galerisi komutları sıfırlar. 
+       </div>
+       <div class="yazisi">
+       Ekle sekmesinde, galeriler belgenizin genel görünümünü düzenlemek için tasarlanan öğeleri eklerler.  
+       Bu galerileri, tablolar, üstbilgiler, altbilgiler, kapak sayfaları ve diğer belge yapı taşlarını eklemek 
+       için kullanabilirsiniz.  Resimler, kartlar veya grafikler oluşturduğunuzda, aynı zamanda geçerli belge 
+       görünümünüzü de düzenlerler. 
+       </div>
+       <div class="yazisi">
+       Belgedeki seçili metnin biçimlendirmesini, Giriş sekmesindeki Hızlı Stiller galerisinden seçilen metin 
+       görünümünü seçerek kolayca değiştirebilirsiniz.  Metni doğrudan Giriş sekmesindeki diğer denetimleri kullanarak
+       da biçimlendirebilirsiniz.  Denetimlerin çoğu geçerli temadan görünüm kullanma ya da doğrudan belirlediğiniz 
+       biçimi kullanma seçeneği sunar. 
+       </div>
+    </div>
+    <div id="onecikan">
+      <ul id="pozisyon">
+        <li onClick="alan(0)">Sağlık</li>
+        <li onClick="alan(1)">Eğitim</li>
+        <li onClick="alan(2)">Gıda</li>
+        <li onClick="alan(3)">Finans</li>
+        <li onClick="alan(4)">Bilişim</li>
+        <li onClick="alan(5)">Hukuk</li>
+        <li onClick="alan(6)">Güvenlik</li>
+        <li onClick="alan(7)">Tekstil</li>
+        <li onClick="alan(8)">Yapı-İnşaat</li>
+        <li onClick="alan(9)">Yönetimci</li>
+      </ul>
+      <div id="cizgi">
+        <div id="ciz"></div>
+        <div id="secil"></div>
+      </div>
+      <ul id="onegelen">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</main>
+<footer>
+  <div id="ust_footer">
+    <div class="container">
+      <div class="ust"><a class="logo" href="index.html">Tecrube Noktası</a></div>
+      <div class="ust">
+        <div id="icon">
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-twitter-square"></i>
+         <i class="fa fa-pinterest-square"></i>
+         <i class="fa fa-youtube-square"></i>
+        </div>
+      </div>
+      <div class="ust">
+        <div class="link"><a>Cvler</a></div>
+        <div class="link"><a>Sponsorlar</a></div>
+        <div class="link"><a>İletişim</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="alt_footer">© Copyright 2018 Tecrübe Noktası Tüm Hakları Saklıdır.</div>
+</footer>
+<script src="js/anasayfa.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/jquery.min.js"></script>
+</body>
+</html>

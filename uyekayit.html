@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/media.css" />
+<title>Tecrübe Noktası</title>
+</head>
+<body>
+<script src="js/jquery.min.js"></script>
+<header>
+  <div class="container">
+    <div id="logo">
+      <div id="img">
+        <a href="index.html"><h1>Logooooo</h1></a>
+      </div>
+    </div>
+    <div id="navbar">
+       <div id="nav">
+          <i class="fa fa-navicon"></i>
+          <ul>
+            <a href="index.html"><li>Anasayfa</li></a>
+            <a><li>Tüm İlanlar</li></a>
+            <a><li>Hakkımızda</li></a>
+            <a><li>Yardım</li></a>
+            <li id="button">
+                 <input type="submit" onClick="git()" value="Kayıt | Giriş">
+            </li>
+          </ul>
+       </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <div id="bilgilen">
+      <h1>Üye Kaydı Oluştur</h1>
+      <div id="bilgi">
+        <h1>Kayıt Oluşrurulurken;</h1>
+        <ul>
+          <li>Mail kısmına okul mailinizi giriniz ve gelen maili onaylayınız. Okul mailinize ulaşmayı bilmiyorsanız 
+          <a href="#">Yardım</a> kısmından destek alabilirsiniz.</li><hr>
+          <li>Telefon kısmını doğru doldurduğunuzdan emin olunuz çünkü telefonunuza onay kodu yönlendirilicek bu onay kodunu onaylayınız.</li><hr>
+        </ul>
+        <p>Yukarıdaki maddelere uymadığınız sürece kaydınız onaylanamıycaktır.</p>
+      </div>
+    </div>
+    <div id="kayit">
+      <table>
+      <form>
+        <tr>
+          <td onClick="myFunction('0')"><a onBlur="blurFunction('0')"><h2>Adınız</h2></a><input type="text" onBlur="blurFunction('0')" class="kyt"></td>
+          <td onClick="myFunction('1')"><a onBlur="blurFunction('1')"><h2>Soyadınız</h2></a><input type="text" onBlur="blurFunction('1')" class="kyt"></td>
+        </tr>
+        <tr>
+          <td onClick="myFunction('2')"><a onBlur="blurFunction('2')"><h2>Mailiniz</h2></a><input type="mail" onBlur="blurFunction('2')" class="kyt"></td>
+          <td onClick="myFunction('3')"><a onBlur="blurFunction('3')"><h2>Telefon Numaranız</h2></a><input type="text" onBlur="blurFunction('3')" class="kyt"></td>
+        </tr>
+        <tr>
+          <td colspan="2" onClick="myFunction('4')"><a onBlur="blurFunction('4')"><h2>Kullanıcı Adınız</h2></a><input type="text" name="kad" onBlur="blurFunction('4')" class="kyt"></td>
+        </tr>
+        <tr>
+          <td onClick="myFunction('5')"><a onBlur="blurFunction('5')"><h2>Şifreniz</h2></a><input type="password"  onBlur="blurFunction('5')" class="kyt"></td>
+          <td onClick="myFunction('6')"><a onBlur="blurFunction('6')"><h2>Şifre Tekrarınız</h2></a><input type="password" onBlur="blurFunction('6')" class="kyt"></td>
+        </tr>
+          <td colspan="2"><input type="submit" name="btn" value="Kayıt Ol"></td>
+        </tr>
+      </form>
+      </table>
+    </div>
+  </div>
+</main>
+<footer>
+  <div id="ust_footer">
+    <div class="container">
+      <div class="ust"><a class="logo" href="index.html">Tecrube Noktası</a></div>
+      <div class="ust">
+        <div id="icon">
+         <i class="fa fa-facebook-square"></i>
+         <i class="fa fa-twitter-square"></i>
+         <i class="fa fa-pinterest-square"></i>
+         <i class="fa fa-youtube-square"></i>
+        </div>
+      </div>
+      <div class="ust">
+        <div class="link"><a>Cvler</a></div>
+        <div class="link"><a>Sponsorlar</a></div>
+        <div class="link"><a>İletişim</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="alt_footer">© Copyright 2018 Tecrübe Noktası Tüm Hakları Saklıdır.</div>
+</footer>
+<script src="js/kayit.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>
