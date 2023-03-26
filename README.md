@@ -1,1 +1,1 @@
-# TecrubeNoktasi Made in February 2018
+# TecrubeNoktasi made in February 2018
